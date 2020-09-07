@@ -141,15 +141,25 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 "1:<span size='xx-large'></span><span size='xx-small'> Terminal</span>"
-set $ws2 "2:<span size='xx-large'>爵</span><span size='xx-small'> Web</span>"
-set $ws3 "3:<span size='xx-large'></span><span size='xx-small'> Files</span>"
-set $ws4 "4:<span size='xx-large'></span><span size='xx-small'> Social</span>"
-set $ws5 "5:<span size='xx-large'></span><span size='xx-small'> Music</span>"
-set $ws6 "6:<span size='xx-large'></span><span size='xx-small'> Workspace 6</span>"
-set $ws7 "7:<span size='xx-large'></span><span size='xx-small'> Workspace 7</span>"
-set $ws8 "8:<span size='xx-large'></span><span size='xx-small'> Workspace 8</span>"
-set $ws9 "9:<span size='xx-large'></span><span size='xx-small'> Workspace 9</span>"
+# set $ws1 "1:<span size='xx-large'></span><span size='xx-small'> Terminal</span>"
+# set $ws2 "2:<span size='xx-large'>爵</span><span size='xx-small'> Web</span>"
+# set $ws3 "3:<span size='xx-large'></span><span size='xx-small'> Files</span>"
+# set $ws4 "4:<span size='xx-large'></span><span size='xx-small'> Social</span>"
+# set $ws5 "5:<span size='xx-large'></span><span size='xx-small'> Music</span>"
+# set $ws6 "6:<span size='xx-large'></span><span size='xx-small'> Workspace 6</span>"
+# set $ws7 "7:<span size='xx-large'></span><span size='xx-small'> Workspace 7</span>"
+# set $ws8 "8:<span size='xx-large'></span><span size='xx-small'> Workspace 8</span>"
+# set $ws9 "9:<span size='xx-large'></span><span size='xx-small'> Workspace 9</span>"
+
+set $ws1 "1: Terminal"
+set $ws2 "2: Browser"
+set $ws3 "3: Files"
+set $ws4 "4: Social"
+set $ws5 "5: Music"
+set $ws6 "6: Workspace 6"
+set $ws7 "7: Workspace 7"
+set $ws8 "8: Workspace 8"
+set $ws9 "9: Workspace 9"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1

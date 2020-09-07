@@ -1,0 +1,150 @@
+[bar/statusbar]
+; monitor = Virtual1
+; monitor-fallback = Virtual1
+monitor-strick = false
+monitor-exact = true
+
+override-redirect = true
+wm-restack = i3
+
+bottom = true
+fixed-center = true
+width = 100%
+height = 32
+offset-x = 0
+offset-y = 0
+
+background = #1d2021
+foreground = #ebdbb2
+
+radius = 0.0
+; border-size = 4
+; border-color = #282828
+padding = 4
+module-margin = 4
+
+font-0 = CaskaydiaCoveNerdFontMono:size=12
+
+modules-left = i3
+; modules-center = 
+modules-right = network 
+
+separator = |
+dim-value = 1.0
+; wm-name = i3
+; local = en_US.UTF-8
+
+tray-position = right
+tray-detached = false
+; tray-maxsize = 16
+; tray-background = ${root.background}
+; tray-offset-x = 4
+; tray-offset-y = 4
+; tray-padding = 4
+tray-scale = 1.5
+
+dpi-x = 150
+dpi-y = 150
+
+enable-ipc = false
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+[module/i3]
+type = internal/i3
+pin-workspaces = true
+strip-wsnumbers = true
+index-sort = true
+enable-click = false
+enable-scroll = false
+wrapping-scroll = false
+reverse-scroll = false
+fuzzy-match = true
+
+label-focused-foreground = #ffffff
+label-focused-background = #3f3f3f
+label-focused-underline = #fba922
+
+[module/network]
+type = internal/network
+interface = ens33
+
+; Seconds to sleep between updates
+; Default: 1
+interval = 3.0
+
+; Test connectivity every Nth update
+; A value of 0 disables the feature
+; NOTE: Experimental (needs more testing)
+; Default: 0
+;ping-interval = 3
+
+; @deprecated: Define min width using token specifiers (%downspeed:min% and %upspeed:min%)
+; Minimum output width of upload/download rate
+; Default: 3
+udspeed-minwidth = 5
+
+; Accumulate values from all interfaces
+; when querying for up/downspeed rate
+; Default: false
+accumulate-stats = true
+
+; Consider an `UNKNOWN` interface state as up.
+; Some devices like USB network adapters have 
+; an unknown state, even when they're running
+; Default: false
+unknown-as-up = true
+
+; Available tags:
+;   <label-connected> (default)
+;   <ramp-signal>
+format-connected = <ramp-signal> <label-connected>
+
+; Available tags:
+;   <label-disconnected> (default)
+format-disconnected = <label-disconnected>
+
+; Available tags:
+;   <label-connected> (default)
+;   <label-packetloss>
+;   <animation-packetloss>
+format-packetloss = <animation-packetloss> <label-connected>
+
+; All labels support the following tokens:
+;   %ifname%    [wireless+wired]
+;   %local_ip%  [wireless+wired]
+;   %local_ip6% [wireless+wired]
+;   %essid%     [wireless]
+;   %signal%    [wireless]
+;   %upspeed%   [wireless+wired]
+;   %downspeed% [wireless+wired]
+;   %linkspeed% [wired]
+
+; Default: %ifname% %local_ip%
+label-connected = %essid% %downspeed:9%
+label-connected-foreground = #eefafafa
+
+; Default: (none)
+label-disconnected = not connected
+label-disconnected-foreground = #66ffffff
+
+; Default: (none)
+;label-packetloss = %essid%
+;label-packetloss-foreground = #eefafafa
+
+; Only applies if <ramp-signal> is used
+ramp-signal-0 = 😱
+ramp-signal-1 = 😠
+ramp-signal-2 = 😒
+ramp-signal-3 = 😊
+ramp-signal-4 = 😃
+ramp-signal-5 = 😈
+
+; Only applies if <animation-packetloss> is used
+animation-packetloss-0 = ⚠
+animation-packetloss-0-foreground = #ffa64c
+animation-packetloss-1 = 📶
+animation-packetloss-1-foreground = #000000
+; Framerate in milliseconds
+animation-packetloss-framerate = 500

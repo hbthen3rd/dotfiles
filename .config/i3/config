@@ -151,15 +151,15 @@ bindsym $mod+Ctrl+Left workspace prev
 # set $ws8 "8:<span size='xx-large'></span><span size='xx-small'> Workspace 8</span>"
 # set $ws9 "9:<span size='xx-large'></span><span size='xx-small'> Workspace 9</span>"
 
-set $ws1 "1: Terminal"
-set $ws2 "2: Browser"
-set $ws3 "3: Files"
-set $ws4 "4: Social"
-set $ws5 "5: Music"
-set $ws6 "6: Workspace 6"
-set $ws7 "7: Workspace 7"
-set $ws8 "8: Workspace 8"
-set $ws9 "9: Workspace 9"
+set $ws1 "1:"
+set $ws2 "2:"
+set $ws3 "3:"
+set $ws4 "4:"
+set $ws5 "5:"
+set $ws6 "6:"
+set $ws7 "7:"
+set $ws8 "8:"
+set $ws9 "9:"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1

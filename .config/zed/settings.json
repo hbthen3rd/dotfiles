@@ -1,0 +1,37 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": {
+    "mode": "system",
+    "light": "Colored Zed Icons Theme Light",
+    "dark": "Colored Zed Icons Theme Dark"
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "ui_font_family": "SF Pro",
+  "ui_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "Gruvbox Light Hard",
+    "dark": "Gruvbox Dark Hard"
+  },
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 12,
+  "terminal": {
+    "blinking": "on",
+    "cursor_shape": "bar",
+    "font_family": "FiraCode Nerd Font",
+    "font_size": 12
+  }
+}

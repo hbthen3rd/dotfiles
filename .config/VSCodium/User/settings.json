@@ -1,0 +1,28 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "vscode-icons",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
+    "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+
+    "editor.fontFamily": "'Fira Code', 'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.autohide": "mouseover",
+
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.ts": "explicit"
+    },
+
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', 'CaskaydiaCove Nerd Font', 'MesloLGSDZ Nerd Font', Monaco, 'Courier New', monospace",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableImages": true,
+    
+    "git.autofetch": true,
+    
+    "vsicons.dontShowNewVersionMessage": true,
+}

@@ -1,15 +1,15 @@
 [core]
-    pager = delta
+	pager = delta
 [interactive]
-    diffFilter = delta --color-only
+	diffFilter = delta --color-only
 [include]
-	  path = ~/.config/delta/themes.gitconfig
+	path = ~/.config/delta/themes.gitconfig
 [delta]
-    navigate = true  # use n and N to move between diff sections
+	navigate = true  # use n and N to move between diff sections
 	features = gruvmax-fang
-    side-by-side = true
-    line-numbers = true
+	side-by-side = true
+	line-numbers = true
 [merge]
-  conflictStyle = zdiff3
+	conflictStyle = zdiff3
 [diff]
-    colorMoved = default
+	colorMoved = default

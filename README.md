@@ -25,7 +25,7 @@
     - [Gnome Extensions](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
     - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
     - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-    - [Status Icons](https://extensions.gnome.org/extension/7332/status-icons/)
+    - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
     - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
     - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
 

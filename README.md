@@ -1,33 +1,31 @@
 # hb's dotfiles
 
 ![Arch Linux - XFCE4](/Screenshots/arch-linux_xfce4.png "Arch Linux - XFCE4")
+
 ![Fedora Workstation - Gnome](/Screenshots/fedora-workstations_gnome.png "Fedora Workstation - Gnome")
 
 ## OS + Desktop environment
 
-- macOS (aarch64)
-  - Liquid Glass (vanilla)
+- macOS - Liquid Glass (vanilla)
   - UI Font: [San Francisco](https://developer.apple.com/fonts/)
     - For [Zed](https://zed.dev/download)
   - [Ice Menu Bar Manager](https://icemenubar.app/)
-- Arch Linux (aarch64)
-  - XFCE4
-    - Theme: [Nashville96-Gruvbox](https://github.com/donfaustinocortizone/Nashville96)
-    - Icons: [Retrosmart](https://aur.archlinux.org/packages/retrosmart-icon-theme)
-    - Cursors: [Chicago95 (Standard Black)](https://aur.archlinux.org/packages/chicago95-theme-git)
-    - UI Font: [CozetteVector](https://aur.archlinux.org/packages/cozette-ttf)
-    - Terminal Font: [CozetteVector Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf)
-    - Background: [Gruvbox wallpapers (Pixel art)](https://gruvbox-wallpapers.pages.dev/)
-    - Shortcut: `xfce4-popup-whiskermenu` > `Super`
-- Fedora Workstation (aarch64)
-  - Gnome (vanilla)
-    - [Gnome Tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
-    - [Gnome Extensions](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
-    - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-    - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-    - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
-    - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
-    - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
+- Arch Linux - XFCE4
+  - Theme: [Nashville96-Gruvbox](https://github.com/donfaustinocortizone/Nashville96)
+  - Icons: [Retrosmart](https://aur.archlinux.org/packages/retrosmart-icon-theme)
+  - Cursors: [Chicago95 (Standard Black)](https://aur.archlinux.org/packages/chicago95-theme-git)
+  - UI Font: [CozetteVector](https://aur.archlinux.org/packages/cozette-ttf)
+  - Terminal Font: [CozetteVector Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf)
+  - Background: [Gruvbox wallpapers (Pixel art)](https://gruvbox-wallpapers.pages.dev/)
+  - Shortcut: `xfce4-popup-whiskermenu` > `Super`
+- Fedora Workstation - Gnome (vanilla)
+  - [Gnome Tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
+  - [Gnome Extensions](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
+  - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+  - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+  - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
+  - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
+  - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
 
 ## Package manager
 
@@ -59,12 +57,12 @@
 
 ## Shell
 
-- [Required for OMZ plugins]: [`fzf`](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
+- (OMZ plugins dependencies): [`fzf`](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
   - Settings environment variables are exported under: `.zshrc`
   - Preview script is under: `.config/fzf/fzf-preview.sh`
     - Requires: [`chafa`](https://hpjansson.org/chafa/download/) for image preview, [`bat`](https://github.com/sharkdp/bat?tab=readme-ov-file#installation) for text preview
     - To make preview script executable: `chmod +x ~/.config/fzf/fzf-preview.sh`
-- [Required for OMZ plugins]: [`zoxide`](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
+- (OMZ plugins dependencies): [`zoxide`](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
 - `EDITOR`= `vim` > Neovim (`nvim`)
   - macOS (`brew`): https://neovim.io/doc/install/#homebrew-on-macos-or-linux
   - Arch Linux (`pacman`/`yay`): https://neovim.io/doc/install/#arch-linux
@@ -112,7 +110,7 @@
   - macOS (Binary download): https://zed.dev/download
   - Arch Linux / Fedora Workstation (Package manager): https://zed.dev/docs/linux#installing-via-a-package-manager
   - [Colored Zed Icons Theme](https://zed.dev/extensions/colored-zed-icons-theme)
-- VSCodium
+- VSCodium (`codium`)
   - macOS (`brew` cask): https://vscodium.com/#install-with-brew-mac
   - Arch Linux (`yay` AUR): https://vscodium.com/#install-on-arch-linux
   - Fedora Workstation (`dnf`): https://vscodium.com/#install-on-fedora-rhel-centos-rockylinux-opensuse-rpm-package
@@ -137,10 +135,10 @@
 - Finder.app (macOS)
   - To switch to List view: `command` + `2`
   - To enable hidden files: `command` + `shift` + `.`
-- Thunar (Arch Linux | XFCE4)
+- Thunar (Arch Linux - XFCE4)
   - To switch to List view: `Ctrl` + `2`
   - To enable hidden files: `Ctrl` + `H`
-- Nautilus (Fedora Workstation | Gnome)
+- Nautilus (Fedora Workstation - Gnome)
   - To switch to List view: `Ctrl` + `1`
   - To enable hidden files: `Ctrl` + `H`
 - `ranger`
@@ -195,7 +193,7 @@
     - `WaveFox.Tabs.Separators` = `1`
     - `WaveFox.DragSpace.TabBarLeftSide.Disabled` = `true`
     - `WaveFox.DragSpace.TabBarRightSide.Disabled` = `true`
-  - macOS only, add the following three settings to `about:config`:
+  - Liquid Glass - macOS only, add the following three settings to `about:config`:
     - `browser.theme.native-theme` = `true`
     - `widget.macos.titlebar-blend-mode.behind-window` = `true`
     - `widget.macos.sidebar-blend-mode.behind-window` = `true`

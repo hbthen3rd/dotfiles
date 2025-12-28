@@ -149,8 +149,8 @@
   - Fedora Workstation (git via `pipx`): `pipx install git+https://github.com/ranger/ranger.git`
   - `imagemagick`(`brew`, `pacman`/`yay`)/`ImageMagick`(`dnf`)
   - `rar`(`brew` cask)/`unrar`(`pacman`/`yay`, `dnf`), `sevenzip`(`brew`)/`7zip`(`pacman`/`yay`, `dnf`), `poppler` (`pdftotext`), `transmission-cli`, `odt2txt`, [`xlsx2csv`](https://github.com/dilshod/xlsx2csv?tab=readme-ov-file#installation)(`pipx`), `w3m`, `jq`, `media-info`(`brew`)/`mediainfo`(`pacman`/`yay`, `dnf`)
-  - `librsvg`(`brew`, `pacman`/`yay`)/`librsvg2-tools`(`dnf`) (`rsvg-convert`), `djvulibre` (`ddjvu`), `ffmpeg`, `ffmpegthumbnailer`, `fontforge` (`fontimage`)
-  - `pandoc`(`brew`, `dnf`)/`pandoc-bin`(`yay` AUR) (`pandoc`), `mu`(`brew`, `yay` AUR)/`maildir-utils`(`dnf`), `sqlite` (`sqlite3`), `pygments`(`brew`)/`python-pygments`(`pacman`/`yay`)/`python3-pygments`(`dnf`) (`pygmentize`), `exiftool`(`brew`)/`perl-image-exiftool`(`pacman`/`yay`)/`perl-Image-ExifTool`(`dnf`)
+  - `librsvg`(`brew`, `pacman`/`yay`)/`librsvg2-tools`(`dnf`) (`rsvg-convert`), `djvulibre`, `ffmpeg`, `ffmpegthumbnailer`, `fontforge` (`fontimage`)
+  - `pandoc`(`brew`, `dnf`)/`pandoc-bin`(`yay` AUR), `mu`(`brew`, `yay` AUR)/`maildir-utils`(`dnf`), `sqlite`, `pygments`(`brew`)/`python-pygments`(`pacman`/`yay`)/`python3-pygments`(`dnf`) (`pygmentize`), `exiftool`(`brew`)/`perl-image-exiftool`(`pacman`/`yay`)/`perl-Image-ExifTool`(`dnf`)
   - [`ranger-archives`](https://github.com/maximtrp/ranger-archives?tab=readme-ov-file#installation)
   - [`ranger-devicons2`](https://github.com/cdump/ranger-devicons2?tab=readme-ov-file#installation)
   - [`ranger-fzf-filter`](https://github.com/MuXiu1997/ranger-fzf-filter?tab=readme-ov-file#install)

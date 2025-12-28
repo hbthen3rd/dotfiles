@@ -1,5 +1,7 @@
 # hb's dotfiles
 
+![macOS - Liquid Glass](/Screenshots/macOS_liquid-glass.png "macOS - Liquid Glass")
+
 ![Arch Linux - XFCE4](/Screenshots/arch-linux_xfce4.png "Arch Linux - XFCE4")
 
 ![Fedora Workstation - Gnome](/Screenshots/fedora-workstations_gnome.png "Fedora Workstation - Gnome")

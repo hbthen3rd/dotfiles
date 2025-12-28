@@ -156,7 +156,7 @@
     - Requires the following dependencies to transform/read other file types:
 
 | Package                                                                                            | CLIs (if different from package) |
-| -------------------------------------------------------------------------------------------------- | -------------------------------- |
+| :------------------------------------------------------------------------------------------------- | :------------------------------- |
 | `rar` (`brew` cask) / `unrar` (`pacman`/`yay`, `dnf`)                                              | `unrar`                          |
 | `sevenzip` (`brew`) / `7zip` (`pacman`/`yay`, `dnf`)                                               | `7zz`                            |
 | `poppler`                                                                                          | `pdftotext`, `pdftoppm`          |

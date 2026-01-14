@@ -228,7 +228,7 @@
   - Theme `import` in `.config/timewarrior/timewarrior.cfg` is in a different location on depending on macOS, Arch Linux, or Fedora Workstation:
     - macOS: `/opt/homebrew/share/doc/timew/themes/dark.theme`
     - Arch Linux: `/usr/share/doc/timew/themes/dark.theme`
-    - Fedora Workstation: `/usr/lib64/timew/themes/dark.theme`
+    - Fedora Workstation: `/usr/share/timew/themes/dark.theme`
   - Taskwarrior integration hook is under: `.config/task/hooks/on-modify.timewarrior` ([source](https://timewarrior.net/docs/taskwarrior/))
     - To make integration hook executable: `chmod +x ~/.config/task/hooks/on-modify.timewarrior`
 

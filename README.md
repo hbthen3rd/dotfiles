@@ -61,7 +61,7 @@
 
 - (OMZ plugins dependencies): [`fzf`](https://github.com/junegunn/fzf?tab=readme-ov-file#installation)
   - Settings environment variables are exported under: `.zshrc`
-  - Preview script is under: `.config/fzf/fzf-preview.sh`
+  - Preview script is under: `.config/fzf/fzf-preview.sh` ([source](https://github.com/junegunn/fzf/blob/master/bin/fzf-preview.sh))
     - Requires: [`chafa`](https://hpjansson.org/chafa/download/) for image preview, [`bat`](https://github.com/sharkdp/bat?tab=readme-ov-file#installation) for text preview
     - To make preview script executable: `chmod +x ~/.config/fzf/fzf-preview.sh`
 - (OMZ plugins dependencies): [`zoxide`](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
@@ -97,7 +97,7 @@
 ## Version control
 
 - [git-delta (`delta`)](https://dandavison.github.io/delta/installation.html)
-  - Theme: installed under `.config/delta/themes.gitconfig`; configured under: `.gitconfig`
+  - Theme: installed under `.config/delta/themes.gitconfig` ([source](https://github.com/dandavison/delta/blob/main/themes.gitconfig)); configured under: `.gitconfig`
 - [`lazygit`](https://github.com/jesseduffield/lazygit?tab=readme-ov-file#installation)
 
 ## Text editor
@@ -219,19 +219,28 @@
     - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/epiphany/
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/epiphany/epiphany/
 
+## Task and time tracker
+
+- [Taskwarrior (`task`)](https://taskwarrior.org/download/#distributions)
+  - [`taskwarrior-tui`](https://kdheepak.com/taskwarrior-tui/installation/)
+    - Fedora Workstation (git via `cargo`): `cargo install taskwarrior-tui`
+- [Timewarrior (`timew`)](https://timewarrior.net/docs/install/)
+  - Theme `import` in `.config/timewarrior/timewarrior.cfg` is in a different location on depending on macOS, Arch Linux, or Fedora Workstation:
+    - macOS: `/opt/homebrew/share/doc/timew/themes/dark.theme`
+    - Arch Linux: `/usr/share/doc/timew/themes/dark.theme`
+    - Fedora Workstation: `/usr/lib64/timew/themes/dark.theme`
+  - Taskwarrior integration hook is under: `.config/task/hooks/on-modify.timewarrior` ([source](https://timewarrior.net/docs/taskwarrior/))
+    - To make integration hook executable: `chmod +x ~/.config/task/hooks/on-modify.timewarrior`
+
 ## Other tools
 
 - [`imv`](https://sr.ht/~exec64/imv/#packages)
 - [`mpv`](https://mpv.io/installation/)
 - [`btop++`](https://github.com/aristocratos/btop)
-  - `color_theme` in `.config/btop/btop.conf` is in a different location on macOS compare to Arch Linux / Fedora Workstation:
+  - `color_theme` in `.config/btop/btop.conf` is in a different location depending on macOS, or Arch Linux / Fedora Workstation:
     - macOS: `/opt/homebrew/Cellar/btop/1.4.5/share/btop/themes/gruvbox_dark_v2.theme`
     - Arch Linux / Fedora Workstation: `/usr/share/btop/themes/gruvbox_dark_v2.theme`
 - [`bandwhich`](https://github.com/imsnif/bandwhich/blob/main/INSTALL.md)
 - [`fastfetch`](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file#installation)
-- [Taskwarrior (`task`)](https://taskwarrior.org/download/#distributions)
-  - [`taskwarrior-tui`](https://kdheepak.com/taskwarrior-tui/installation/)
-    - Fedora Workstation (git via `cargo`): `cargo install taskwarrior-tui`
-- [Timewarrior (`timew`)](https://timewarrior.net/docs/install/)
 - [Tealdeer (`tldr`)](https://tealdeer-rs.github.io/tealdeer/installing.html#package-managers)
   - To update cache: `tldr -u`

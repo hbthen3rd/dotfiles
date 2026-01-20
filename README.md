@@ -135,7 +135,7 @@
   - [GitLens](https://open-vsx.org/vscode/item?itemName=eamodio.gitlens)
   - [Gruvbox Theme](https://open-vsx.org/vscode/item?itemName=jdinhlife.gruvbox)
   - [indent-rainbow](https://open-vsx.org/vscode/item?itemName=oderwat.indent-rainbow)
-  - [Prettier](https://open-vsx.org/vscode/item?itemName=prettier.prettier-vscode)
+  - [Prettier](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode)
   - [Pretty TypeScript Errors](https://open-vsx.org/vscode/item?itemName=yoavbls.pretty-ts-errors)
   - [Toggle Quotes](https://open-vsx.org/vscode/item?itemName=BriteSnow.vscode-toggle-quotes)
   - [vscode-icons](https://open-vsx.org/vscode/item?itemName=vscode-icons-team.vscode-icons)

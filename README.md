@@ -45,17 +45,26 @@
 ## Fonts
 
 - Editor:
-  - Fira Code (macOS / Fedora Workstation):
+  - Fira Code:
     - macOS (`brew` cask): https://formulae.brew.sh/cask/font-fira-code
+    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/ttf-fira-code/
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/fira-code-fonts/fira-code-fonts/
-  - CozetteVector (Arch Linux):
-    - Arch Linux (`yay` AUR): https://aur.archlinux.org/packages/cozette-ttf
 - Terminal:
-  - FiraCode Nerd Font (macOS / Fedora Workstation):
+  - FiraCode Nerd Font:
     - macOS (`brew` cask): https://formulae.brew.sh/cask/font-fira-code-nerd-font
+    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/ttf-firacode-nerd/
     - Fedora Workstation (`dnf` Terra): https://fedora.pkgs.org/43/terra/firacode-nerd-fonts-0:3.4.0-1.fc43.noarch.rpm.html
-  - CozetteVector Nerd Font (Arch Linux):
-    - Arch Linux (`yay` AUR): https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf
+
+- XFCE4 - Arch Linux only:
+  - Editor:
+    - CozetteVector (Arch Linux):
+      - Arch Linux (`yay` AUR): https://aur.archlinux.org/packages/cozette-ttf
+  - Terminal:
+    - CozetteVector Nerd Font (Arch Linux):
+      - Arch Linux (`yay` AUR): https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf
+  - WezTerm, add the following two fonts to `.wezterm.lua`:
+    - `"CozetteVector Nerd Font"` (Nerd Font patched version, top)
+    - `"CozetteVector"` (unpatched version, fallback)
 
 ## Shell
 

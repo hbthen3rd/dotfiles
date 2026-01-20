@@ -23,11 +23,13 @@
 - Fedora Workstation - Gnome (vanilla)
   - [Gnome Tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
   - [Gnome Extensions](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
-  - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
-  - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-  - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
-  - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
-  - [Tiling Shell](https://extensions.gnome.org/extension/7065/tiling-shell/)
+    - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
+    - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
+    - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+    - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+    - [Forge](https://extensions.gnome.org/extension/4481/forge/)
+    - [Rounded Window Corners Reborn](https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/)
+    - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 
 ## Package manager
 

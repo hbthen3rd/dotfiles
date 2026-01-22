@@ -77,7 +77,16 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colored-man-pages command-not-found fast-syntax-highlighting fzf git zoxide zsh-autosuggestions)
+plugins=(
+  colored-man-pages
+  command-not-found
+  fast-syntax-highlighting
+  fzf
+  git
+  tmux
+  zoxide
+  zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -138,3 +147,7 @@ export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS"
 # fzf integration with fd
 export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --follow --hidden --exclude .git --color=always'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# oh-my-zsh tmux plugins config
+ZSH_TMUX_AUTOREFRESH=true
+ZSH_TMUX_AUTOSTART=true

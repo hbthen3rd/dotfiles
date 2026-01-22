@@ -100,7 +100,7 @@
       - Theme installed under: `.config/fsh/gruvbox-dark-hard.ini`
         - To enable theme: `fast-theme XDG:gruvbox-dark-hard`
     - [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
-- [`tmux`](https://github.com/tmux/tmux/wiki/Installing)
+- (OMZ plugins dependencies): [`tmux`](https://github.com/tmux/tmux/wiki/Installing)
   - [tmux plugin manager](https://github.com/tmux-plugins/tpm?tab=readme-ov-file#installation)
     - [Tmux sensible](https://github.com/tmux-plugins/tmux-sensible)
     - [`tmux2k`](https://github.com/2KAbhishek/tmux2k)

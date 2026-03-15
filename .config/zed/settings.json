@@ -7,31 +7,39 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": {
-    "mode": "system",
-    "light": "Colored Zed Icons Theme Light",
-    "dark": "Colored Zed Icons Theme Dark"
+  "base_keymap": "VSCode",
+  "edit_predictions": {
+    "provider": "zed",
   },
-  "features": {
-    "edit_prediction_provider": "zed"
+  "session": {
+    "trust_all_worktrees": true,
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
-  "ui_font_family": "SF Pro",
-  "ui_font_size": 14,
+
   "theme": {
     "mode": "system",
     "light": "Gruvbox Light Hard",
-    "dark": "Gruvbox Dark Hard"
+    "dark": "Gruvbox Dark Hard",
   },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Colored Zed Icons Theme Light",
+    "dark": "Colored Zed Icons Theme Dark",
+  },
+
+  "ui_font_family": "SF Pro",
+  "ui_font_size": 12,
+
   "buffer_font_family": "Fira Code",
   "buffer_font_size": 12,
+
   "terminal": {
     "blinking": "on",
     "cursor_shape": "bar",
     "font_family": "FiraCode Nerd Font",
-    "font_size": 12
-  }
+    "font_size": 12,
+  },
 }

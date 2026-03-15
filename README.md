@@ -8,26 +8,37 @@
 
 ## OS + Desktop environment
 
-- macOS - Liquid Glass (vanilla)
+- macOS - Liquid Glass
   - UI Font: [San Francisco](https://developer.apple.com/fonts/)
-    - For [Zed](https://zed.dev/download)
+    - "SF Pro" is used as [Zed](https://zed.dev/download)'s UI Font
   - [Ice Menu Bar Manager](https://icemenubar.app/)
 - Arch Linux - XFCE4
   - Theme: [Nashville96-Gruvbox](https://github.com/donfaustinocortizone/Nashville96)
   - Icons: [Retrosmart](https://aur.archlinux.org/packages/retrosmart-icon-theme)
   - Cursors: [Chicago95 (Standard Black)](https://aur.archlinux.org/packages/chicago95-theme-git)
   - UI Font: [CozetteVector](https://aur.archlinux.org/packages/cozette-ttf)
+    - "CozetteVector" is used as [Zed](https://zed.dev/download)'s UI Font
   - Terminal Font: [CozetteVector Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf)
   - Background: [Gruvbox wallpapers (Pixel art)](https://gruvbox-wallpapers.pages.dev/)
   - Shortcut: `xfce4-popup-whiskermenu` > `Super`
-- Fedora Workstation - Gnome (vanilla)
+- Fedora Workstation - Gnome
+  - UI Font: [Adwaita Sans](https://gitlab.gnome.org/GNOME/adwaita-fonts)
+    - "Adwaita Sans" is used as [Zed](https://zed.dev/download)'s UI Font
   - [Gnome Tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
   - [Gnome Extensions](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
     - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
     - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
     - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+    - [Burn My Windows](https://extensions.gnome.org/extension/4679/burn-my-windows/)
+    - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+    - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+    - [Compiz windows effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/)
+    - [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
     - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+    - [Desktop Cube](https://extensions.gnome.org/extension/4648/desktop-cube/)
     - [Forge](https://extensions.gnome.org/extension/4481/forge/)
+    - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/)
+    - [Maximize To Workspace With History](https://extensions.gnome.org/extension/9346/maximize-to-workspace-with-history/)
     - [Rounded Window Corners Reborn](https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/)
     - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 
@@ -43,6 +54,9 @@
   - macOS (`brew` cask): https://wezterm.org/install/macos.html#homebrew
   - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/wezterm/
   - Fedora Workstation (`dnf` COPR): https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/
+  - XFCE4 - Arch Linux only, add the following two fonts to `.wezterm.lua`:
+    - `"CozetteVector Nerd Font"` (Nerd Font patched version, top)
+    - `"CozetteVector"` (unpatched version, fallback)
 
 ## Fonts
 
@@ -64,9 +78,6 @@
   - Terminal:
     - CozetteVector Nerd Font (Arch Linux):
       - Arch Linux (`yay` AUR): https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf
-  - WezTerm, add the following two fonts to `.wezterm.lua`:
-    - `"CozetteVector Nerd Font"` (Nerd Font patched version, top)
-    - `"CozetteVector"` (unpatched version, fallback)
 
 ## Shell
 
@@ -123,6 +134,10 @@
   - macOS (Binary download): https://zed.dev/download
   - Arch Linux / Fedora Workstation (Package manager): https://zed.dev/docs/linux#installing-via-a-package-manager
   - [Colored Zed Icons Theme](https://zed.dev/extensions/colored-zed-icons-theme)
+  - `ui_font_family` in `.config/zed/settings.json` is in a different for each desktop environments:
+    - Liquid Glass - macOS: `"SF Pro"`
+    - XFCE4 - Arch Linux: `"CozetteVector"`
+    - Gnome - Fedora Workstation: `"Adwaita Sans"`
 - VSCodium (`codium`)
   - macOS (`brew` cask): https://vscodium.com/#install-with-brew-mac
   - Arch Linux (`yay` AUR): https://vscodium.com/#install-on-arch-linux

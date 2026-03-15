@@ -193,17 +193,17 @@
 | [`xlsx2csv`](https://github.com/dilshod/xlsx2csv?tab=readme-ov-file#installation) (git via `pipx`) |                                  |
 | `w3m`                                                                                              |                                  |
 | `jq`                                                                                               |                                  |
-| `media-info` (`brew`) / `mediainfo` (`pacman`/`yay`, `dnf`)                                        |                                  |
+| `media-info` (`brew`) / `mediainfo` (`pacman`/`yay`, `dnf`)                                        | `mediainfo`                      |
 | `librsvg` (`brew`, `pacman`/`yay`) / `librsvg2-tools` (`dnf`)                                      | `rsvg-convert`                   |
 | `djvulibre`                                                                                        | `ddjvu`, `djvutxt`               |
 | `ffmpeg`                                                                                           |                                  |
 | `ffmpegthumbnailer`                                                                                |                                  |
 | `fontforge`                                                                                        | `fontimage`                      |
-| `pandoc` (`brew`, `dnf`) / `pandoc-bin` (`yay` AUR)                                                |                                  |
-| `mu` (`brew`, `yay` AUR) / `maildir-utils` (`dnf`)                                                 |                                  |
+| `pandoc` (`brew`, `dnf`) / `pandoc-bin` (`yay` AUR)                                                | `pandoc`                         |
+| `mu` (`brew`, `yay` AUR) / `maildir-utils` (`dnf`)                                                 | `mu`                             |
 | `sqlite`                                                                                           | `sqlite3`                        |
 | `pygments` (`brew`) / `python-pygments` (`pacman`/`yay`) / `python3-pygments` (`dnf`)              | `pygmentize`                     |
-| `exiftool` (`brew`) / `perl-image-exiftool` (`pacman`/`yay`) / `perl-Image-ExifTool` (`dnf`)       |                                  |
+| `exiftool` (`brew`) / `perl-image-exiftool` (`pacman`/`yay`) / `perl-Image-ExifTool` (`dnf`)       | `exiftool`                       |
 
 ## Web browser
 

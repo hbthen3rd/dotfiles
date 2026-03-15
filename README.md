@@ -22,6 +22,8 @@
   - Background: [Gruvbox wallpapers (Pixel art)](https://gruvbox-wallpapers.pages.dev/)
   - Shortcut: `xfce4-popup-whiskermenu` > `Super`
 - Fedora Workstation - Gnome
+  - Theme: [adw-gtk3](https://github.com/lassekongo83/adw-gtk3?tab=readme-ov-file#repositories) with [adw-colors](https://github.com/lassekongo83/adw-colors/blob/main/docs/HOWTO_INSTALL.md) (adw-gruvbox)
+  - Icons: [MoreWaita](https://github.com/somepaulo/MoreWaita?tab=readme-ov-file#fedora-linux) with [Adwaita-colors](https://github.com/dpejoh/Adwaita-colors?tab=readme-ov-file#morewaita) and [Adwaita Colors Home](https://github.com/dpejoh/Adwaita-Colors-Home?tab=readme-ov-file#installation)
   - UI Font: [Adwaita Sans](https://gitlab.gnome.org/GNOME/adwaita-fonts)
     - "Adwaita Sans" is used as [Zed](https://zed.dev/download)'s UI Font
   - [Gnome Tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
@@ -212,6 +214,7 @@
   - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/firefox/
   - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/firefox/firefox/
   - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+  - [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
   - [Gruvbox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-dark-theme/)
   - [WaveFox](https://github.com/QNetITQ/WaveFox)
   - `about:config` settings:
@@ -233,6 +236,7 @@
     - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/chromium/
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/chromium/chromium/
     - [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+    - [SponsorBlock](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
     - [Gruvbox Theme](https://chromewebstore.google.com/detail/gruvbox-theme/pligoajaaggbghgopjdmkfbnaodknplm)
   - qutebrowser (VIM-like)
     - macOS (`brew` cask): https://formulae.brew.sh/cask/qutebrowser
@@ -241,6 +245,7 @@
 - Webkit engine:
   - Safari (macOS)
     - [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698?platform=mac)
+    - [SponsorBlock](https://github.com/ajayyy/SponsorBlock/wiki/Safari)
   - Gnome Web (Epiphany) (Arch Linux / Fedora Workstation):
     - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/epiphany/
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/epiphany/epiphany/

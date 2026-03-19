@@ -11,7 +11,7 @@
 - macOS - Liquid Glass
   - UI Font: [San Francisco](https://developer.apple.com/fonts/)
     - "SF Pro" is used as [Zed](https://zed.dev/download)'s UI Font
-  - [Ice Menu Bar Manager](https://icemenubar.app/)
+  - [Bartender 6](https://www.macbartender.com/)
 - Arch Linux - XFCE4
   - Theme: [Nashville96-Gruvbox](https://github.com/donfaustinocortizone/Nashville96)
   - Icons: [Retrosmart](https://aur.archlinux.org/packages/retrosmart-icon-theme)

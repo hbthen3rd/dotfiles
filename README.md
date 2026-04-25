@@ -220,8 +220,11 @@
   - `about:config` settings:
     - `toolkit.legacyUserProfileCustomizations.stylesheets` = `true`
     - `WaveFox.Tabs.Shape` = `5`
-    - `WaveFox.Toolbar.Roundings` = `1`
     - `WaveFox.Tabs.Separators` = `1`
+    - `WaveFox.LightTheme.Tabs.Shadows` = `1`
+    - `WaveFox.DarkTheme.Tabs.Shadows` = `1`
+    - `WaveFox.Toolbar.Roundings` = `1`
+    - `WaveFox.Tabs.SelectedTabIndicator.Enabled` = `true`
     - `WaveFox.DragSpace.TabBarLeftSide.Disabled` = `true`
     - `WaveFox.DragSpace.TabBarRightSide.Disabled` = `true`
   - Liquid Glass - macOS only, add the following three settings to `about:config`:
@@ -230,6 +233,11 @@
     - `widget.macos.sidebar-blend-mode.behind-window` = `true`
   - XFCE4 - Arch Linux only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `0`
+  - Gnome - Fedora Workstation only, add the following setting to `about:config`:
+    - `browser.tabs.inTitlebar` = `1`
+    - `widget.gtk.libadwaita-colors.enabled` = `false`
+    - `WaveFox.Linux.Transparency.Enabled` = `true`
+    - `WaveFox.Toolbar.Transparency` = `1`
 - Blink engine:
   - Chromium
     - macOS (`brew` cask): https://formulae.brew.sh/cask/chromium

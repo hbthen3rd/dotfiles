@@ -228,9 +228,11 @@
     - `WaveFox.DragSpace.TabBarLeftSide.Disabled` = `true`
     - `WaveFox.DragSpace.TabBarRightSide.Disabled` = `true`
   - Liquid Glass - macOS only, add the following three settings to `about:config`:
+    - `browser.tabs.inTitlebar` = `1`
     - `browser.theme.native-theme` = `true`
     - `widget.macos.titlebar-blend-mode.behind-window` = `true`
     - `widget.macos.sidebar-blend-mode.behind-window` = `true`
+    - `WaveFox.Toolbar.Transparency` = `1`
   - XFCE4 - Arch Linux only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `0`
   - Gnome - Fedora Workstation only, add the following setting to `about:config`:

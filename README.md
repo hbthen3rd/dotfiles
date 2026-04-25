@@ -215,31 +215,37 @@
   - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/firefox/firefox/
   - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
   - [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
-  - [Gruvbox Dark Theme](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-dark-theme/)
   - [WaveFox](https://github.com/QNetITQ/WaveFox)
   - `about:config` settings:
     - `toolkit.legacyUserProfileCustomizations.stylesheets` = `true`
-    - `WaveFox.Tabs.Shape` = `5`
+    - `svg.context-properties.content.enabled` = `true`
+    - `WaveFox.Tabs.Shape` = `7`
     - `WaveFox.Tabs.Separators` = `1`
     - `WaveFox.LightTheme.Tabs.Shadows` = `1`
     - `WaveFox.DarkTheme.Tabs.Shadows` = `1`
-    - `WaveFox.Toolbar.Roundings` = `1`
-    - `WaveFox.Tabs.SelectedTabIndicator.Enabled` = `true`
+    - `WaveFox.Toolbar.Roundings` = `2`
+    - `WaveFox.DragSpace.Tabs` = `1`
     - `WaveFox.DragSpace.TabBarLeftSide.Disabled` = `true`
     - `WaveFox.DragSpace.TabBarRightSide.Disabled` = `true`
+    - `WaveFox.Icons` = `1`
   - Liquid Glass - macOS only, add the following three settings to `about:config`:
     - `browser.tabs.inTitlebar` = `1`
+    - `browser.tabs.allow_transparent_browser` = `true`
     - `browser.theme.native-theme` = `true`
     - `widget.macos.titlebar-blend-mode.behind-window` = `true`
     - `widget.macos.sidebar-blend-mode.behind-window` = `true`
+    - `widget.macos.native-context-menus` = `false`
     - `WaveFox.Toolbar.Transparency` = `1`
+    - `WaveFox.WebPage.Transparency` = `1`
   - XFCE4 - Arch Linux only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `0`
   - Gnome - Fedora Workstation only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `1`
+    - `browser.tabs.allow_transparent_browser` = `true`
     - `widget.gtk.libadwaita-colors.enabled` = `false`
     - `WaveFox.Linux.Transparency.Enabled` = `true`
     - `WaveFox.Toolbar.Transparency` = `1`
+    - `WaveFox.WebPage.Transparency` = `1`
 - Blink engine:
   - Chromium
     - macOS (`brew` cask): https://formulae.brew.sh/cask/chromium

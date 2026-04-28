@@ -243,6 +243,7 @@
     - `browser.tabs.inTitlebar` = `1`
     - `browser.tabs.allow_transparent_browser` = `true`
     - `widget.gtk.libadwaita-colors.enabled` = `false`
+    - `widget.gtk.rounded-bottom-corners.enabled` = `true`
     - `WaveFox.Linux.Transparency.Enabled` = `true`
     - `WaveFox.Toolbar.Transparency` = `1`
     - `WaveFox.WebPage.Transparency` = `1`

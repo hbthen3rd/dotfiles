@@ -2,9 +2,9 @@
 
 ![macOS - Liquid Glass](/Screenshots/macOS_liquid-glass.png "macOS - Liquid Glass")
 
-![Arch Linux - XFCE4](/Screenshots/arch-linux_xfce4.png "Arch Linux - XFCE4")
-
 ![Fedora Workstation - Gnome](/Screenshots/fedora-workstations_gnome.png "Fedora Workstation - Gnome")
+
+![Arch Linux - XFCE4](/Screenshots/arch-linux_xfce4.png "Arch Linux - XFCE4")
 
 ## OS + Desktop environment
 
@@ -12,6 +12,27 @@
   - UI Font: [San Francisco](https://developer.apple.com/fonts/)
     - "SF Pro" is used as [Zed](https://zed.dev/download)'s UI Font
   - [Bartender 6](https://www.macbartender.com/)
+- Fedora Workstation - Gnome
+  - Theme: [adw-gtk3](https://github.com/lassekongo83/adw-gtk3?tab=readme-ov-file#repositories) with [adw-colors](https://github.com/lassekongo83/adw-colors/blob/main/docs/HOWTO_INSTALL.md) (adw-gruvbox)
+  - Icons: [MoreWaita](https://github.com/somepaulo/MoreWaita?tab=readme-ov-file#fedora-linux) with [Adwaita-colors](https://github.com/dpejoh/Adwaita-colors?tab=readme-ov-file#morewaita) and [Adwaita Colors Home](https://github.com/dpejoh/Adwaita-Colors-Home?tab=readme-ov-file#installation)
+  - UI Font: [Adwaita Sans](https://gitlab.gnome.org/GNOME/adwaita-fonts)
+    - "Adwaita Sans" is used as [Zed](https://zed.dev/download)'s UI Font
+  - Background: [Gruvbox wallpapers (Vector graphic)](https://gruvbox-wallpapers.pages.dev/)
+  - [Gnome Tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
+  - [Gnome Extensions](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
+    - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
+    - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
+    - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+    - [Burn My Windows](https://extensions.gnome.org/extension/4679/burn-my-windows/)
+    - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
+    - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
+    - [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
+    - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
+    - [Desktop Cube](https://extensions.gnome.org/extension/4648/desktop-cube/)
+    - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/)
+    - [Maximize To Workspace With History](https://extensions.gnome.org/extension/9346/maximize-to-workspace-with-history/)
+    - [Rounded Window Corners Reborn](https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/)
+    - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - Arch Linux - XFCE4
   - Theme: [Nashville96-Gruvbox](https://github.com/donfaustinocortizone/Nashville96)
   - Icons: [Retrosmart](https://aur.archlinux.org/packages/retrosmart-icon-theme)
@@ -21,57 +42,27 @@
   - Terminal Font: [CozetteVector Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf)
   - Background: [Gruvbox wallpapers (Pixel art)](https://gruvbox-wallpapers.pages.dev/)
   - Shortcut: `xfce4-popup-whiskermenu` > `Super`
-- Fedora Workstation - Gnome
-  - Theme: [adw-gtk3](https://github.com/lassekongo83/adw-gtk3?tab=readme-ov-file#repositories) with [adw-colors](https://github.com/lassekongo83/adw-colors/blob/main/docs/HOWTO_INSTALL.md) (adw-gruvbox)
-  - Icons: [MoreWaita](https://github.com/somepaulo/MoreWaita?tab=readme-ov-file#fedora-linux) with [Adwaita-colors](https://github.com/dpejoh/Adwaita-colors?tab=readme-ov-file#morewaita) and [Adwaita Colors Home](https://github.com/dpejoh/Adwaita-Colors-Home?tab=readme-ov-file#installation)
-  - UI Font: [Adwaita Sans](https://gitlab.gnome.org/GNOME/adwaita-fonts)
-    - "Adwaita Sans" is used as [Zed](https://zed.dev/download)'s UI Font
-  - [Gnome Tweaks](https://packages.fedoraproject.org/pkgs/gnome-tweaks/gnome-tweaks/)
-  - [Gnome Extensions](https://packages.fedoraproject.org/pkgs/gnome-extensions-app/gnome-extensions-app/)
-    - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
-    - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
-    - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-    - [Burn My Windows](https://extensions.gnome.org/extension/4679/burn-my-windows/)
-    - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
-    - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-    - [Compiz windows effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/)
-    - [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
-    - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-    - [Desktop Cube](https://extensions.gnome.org/extension/4648/desktop-cube/)
-    - [Forge](https://extensions.gnome.org/extension/4481/forge/)
-    - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/)
-    - [Maximize To Workspace With History](https://extensions.gnome.org/extension/9346/maximize-to-workspace-with-history/)
-    - [Rounded Window Corners Reborn](https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/)
-    - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 
 ## Package manager
 
-- macOS: [Homebrew](https://brew.sh/)
-- Arch Linux: `pacman`, and [`yay`](https://github.com/Jguer/yay?tab=readme-ov-file#source)
+- macOS: [Homebrew](https://brew.sh/), and [MacPorts](https://www.macports.org/install.php)
 - Fedora Workstation: `dnf`
-
-## Terminal emulator
-
-- WezTerm
-  - macOS (`brew` cask): https://wezterm.org/install/macos.html#homebrew
-  - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/wezterm/
-  - Fedora Workstation (`dnf` COPR): https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/
-  - XFCE4 - Arch Linux only, add the following two fonts to `.wezterm.lua`:
-    - `"CozetteVector Nerd Font"` (Nerd Font patched version, top)
-    - `"CozetteVector"` (unpatched version, fallback)
+- Arch Linux: `pacman`, and [`yay`](https://github.com/Jguer/yay?tab=readme-ov-file#source)
+- [`cargo`](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+- [`pipx`](https://pipx.pypa.io/stable/how-to/install-pipx/#installing-pipx)
 
 ## Fonts
 
 - Editor:
   - Fira Code:
     - macOS (`brew` cask): https://formulae.brew.sh/cask/font-fira-code
-    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/ttf-fira-code/
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/fira-code-fonts/fira-code-fonts/
+    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/ttf-fira-code/
 - Terminal:
   - FiraCode Nerd Font:
     - macOS (`brew` cask): https://formulae.brew.sh/cask/font-fira-code-nerd-font
-    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/ttf-firacode-nerd/
     - Fedora Workstation (`dnf` Terra): https://fedora.pkgs.org/43/terra/firacode-nerd-fonts-0:3.4.0-1.fc43.noarch.rpm.html
+    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/ttf-firacode-nerd/
 
 - XFCE4 - Arch Linux only:
   - Editor:
@@ -80,6 +71,16 @@
   - Terminal:
     - CozetteVector Nerd Font (Arch Linux):
       - Arch Linux (`yay` AUR): https://aur.archlinux.org/packages/nerd-fonts-cozette-ttf
+
+## Terminal emulator
+
+- WezTerm
+  - macOS (`brew` cask): https://wezterm.org/install/macos.html#homebrew
+  - Fedora Workstation (`dnf` COPR): https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/
+  - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/wezterm/
+  - XFCE4 - Arch Linux only, add the following two fonts to `.wezterm.lua`:
+    - `"CozetteVector Nerd Font"` (Nerd Font patched version, top)
+    - `"CozetteVector"` (unpatched version, fallback)
 
 ## Shell
 
@@ -91,12 +92,12 @@
 - (OMZ plugins dependencies): [`zoxide`](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
 - `EDITOR`= `vim` > Neovim (`nvim`)
   - macOS (`brew`): https://neovim.io/doc/install/#homebrew-on-macos-or-linux
-  - Arch Linux (`pacman`/`yay`): https://neovim.io/doc/install/#arch-linux
   - Fedora Workstation (`dnf`): https://neovim.io/doc/install/#fedora
+  - Arch Linux (`pacman`/`yay`): https://neovim.io/doc/install/#arch-linux
 - `PAGER` = `less` > `most`
   - macOS (`brew`): https://formulae.brew.sh/formula/most
-  - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/most/
   - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/most/most/
+  - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/most/
 - `ls` > [`eza`](https://github.com/eza-community/eza/blob/main/INSTALL.md)
   - Fedora Workstation (`dnf` COPR): https://copr.fedorainfracloud.org/coprs/alternateved/eza/
 - `cat` > [`bat`](https://github.com/sharkdp/bat?tab=readme-ov-file#installation)
@@ -128,22 +129,22 @@
 
 - Neovim (`nvim`)
   - macOS (`brew`): https://neovim.io/doc/install/#homebrew-on-macos-or-linux
-  - Arch Linux (`pacman`/`yay`): https://neovim.io/doc/install/#arch-linux
   - Fedora Workstation (`dnf`): https://neovim.io/doc/install/#fedora
+  - Arch Linux (`pacman`/`yay`): https://neovim.io/doc/install/#arch-linux
   - [LazyVim](https://www.lazyvim.org/installation)
     - Neo-tree: installed/enabled under `.config/nvim/lazyvim.json`; configured under `.config/nvim/lua/plugins/neo-tree.lua`
 - Zed
-  - macOS (Binary download): https://zed.dev/download
-  - Arch Linux / Fedora Workstation (Package manager): https://zed.dev/docs/linux#installing-via-a-package-manager
+  - macOS (`brew` cask): https://zed.dev/docs/macos#homebrew
+  - Fedora Workstation / Arch Linux (Package manager): https://zed.dev/docs/linux#installing-via-a-package-manager
   - [Colored Zed Icons Theme](https://zed.dev/extensions/colored-zed-icons-theme)
   - `ui_font_family` in `.config/zed/settings.json` is in a different for each desktop environments:
     - Liquid Glass - macOS: `"SF Pro"`
-    - XFCE4 - Arch Linux: `"CozetteVector"`
     - Gnome - Fedora Workstation: `"Adwaita Sans"`
+    - XFCE4 - Arch Linux: `"CozetteVector"`
 - VSCodium (`codium`)
   - macOS (`brew` cask): https://vscodium.com/#install-with-brew-mac
-  - Arch Linux (`yay` AUR): https://vscodium.com/#install-on-arch-linux
   - Fedora Workstation (`dnf`): https://vscodium.com/#install-on-fedora-rhel-centos-rockylinux-opensuse-rpm-package
+  - Arch Linux (`yay` AUR): https://vscodium.com/#install-on-arch-linux
   - [Bookmarks](https://open-vsx.org/vscode/item?itemName=alefragnani.Bookmarks)
   - [Code Spell Checker](https://open-vsx.org/vscode/item?itemName=streetsidesoftware.code-spell-checker)
   - [ES7+ React/Redux/React-Native snippets](https://open-vsx.org/vscode/item?itemName=dsznajder.es7-react-js-snippets)
@@ -165,16 +166,16 @@
 - Finder.app (macOS)
   - To switch to List view: `command` + `2`
   - To enable hidden files: `command` + `shift` + `.`
-- Thunar (Arch Linux - XFCE4)
-  - To switch to List view: `Ctrl` + `2`
-  - To enable hidden files: `Ctrl` + `H`
 - Nautilus (Fedora Workstation - Gnome)
   - To switch to List view: `Ctrl` + `1`
   - To enable hidden files: `Ctrl` + `H`
+- Thunar (Arch Linux - XFCE4)
+  - To switch to List view: `Ctrl` + `2`
+  - To enable hidden files: `Ctrl` + `H`
 - `ranger`
   - macOS (git via `brew --HEAD`): https://formulae.brew.sh/formula/ranger
-  - Arch Linux (git via `yay` AUR): https://aur.archlinux.org/packages/ranger-git
   - Fedora Workstation (git via `pipx`): `pipx install git+https://github.com/ranger/ranger.git`
+  - Arch Linux (git via `yay` AUR): https://aur.archlinux.org/packages/ranger-git
   - [`ranger-archives`](https://github.com/maximtrp/ranger-archives?tab=readme-ov-file#installation)
   - [`ranger-devicons2`](https://github.com/cdump/ranger-devicons2?tab=readme-ov-file#installation)
   - [`ranger-fzf-filter`](https://github.com/MuXiu1997/ranger-fzf-filter?tab=readme-ov-file#install)
@@ -192,6 +193,7 @@
 | `poppler`                                                                                          | `pdftotext`, `pdftoppm`          |
 | `transmission-cli`                                                                                 | `transmission-show`              |
 | `odt2txt`                                                                                          |                                  |
+| `catdoc` (macOS: via `port`)                                                                       |                                  |
 | [`xlsx2csv`](https://github.com/dilshod/xlsx2csv?tab=readme-ov-file#installation) (git via `pipx`) |                                  |
 | `w3m`                                                                                              |                                  |
 | `jq`                                                                                               |                                  |
@@ -204,15 +206,15 @@
 | `pandoc` (`brew`, `dnf`) / `pandoc-bin` (`yay` AUR)                                                | `pandoc`                         |
 | `mu` (`brew`, `yay` AUR) / `maildir-utils` (`dnf`)                                                 | `mu`                             |
 | `sqlite`                                                                                           | `sqlite3`                        |
-| `pygments` (`brew`) / `python-pygments` (`pacman`/`yay`) / `python3-pygments` (`dnf`)              | `pygmentize`                     |
-| `exiftool` (`brew`) / `perl-image-exiftool` (`pacman`/`yay`) / `perl-Image-ExifTool` (`dnf`)       | `exiftool`                       |
+| `pygments` (`brew`) / `python3-pygments` (`dnf`) / `python-pygments` (`pacman`/`yay`)              | `pygmentize`                     |
+| `exiftool` (`brew`) / `perl-Image-ExifTool` (`dnf`) / `perl-image-exiftool` (`pacman`/`yay`)       | `exiftool`                       |
 
 ## Web browser
 
 - Gecko engine: Firefox
   - macOS (`brew` cask): https://formulae.brew.sh/cask/firefox#default
-  - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/firefox/
   - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/firefox/firefox/
+  - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/firefox/
   - [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
   - [SponsorBlock](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)
   - [WaveFox](https://github.com/QNetITQ/WaveFox)
@@ -237,8 +239,6 @@
     - `widget.macos.native-context-menus` = `false`
     - `WaveFox.Toolbar.Transparency` = `1`
     - `WaveFox.WebPage.Transparency` = `1`
-  - XFCE4 - Arch Linux only, add the following setting to `about:config`:
-    - `browser.tabs.inTitlebar` = `0`
   - Gnome - Fedora Workstation only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `1`
     - `browser.tabs.allow_transparent_browser` = `true`
@@ -247,18 +247,19 @@
     - `WaveFox.Linux.Transparency.Enabled` = `true`
     - `WaveFox.Toolbar.Transparency` = `1`
     - `WaveFox.WebPage.Transparency` = `1`
+  - XFCE4 - Arch Linux only, add the following setting to `about:config`:
+    - `browser.tabs.inTitlebar` = `0`
 - Blink engine:
   - Chromium
     - macOS (`brew` cask): https://formulae.brew.sh/cask/chromium
-    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/chromium/
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/chromium/chromium/
+    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/chromium/
     - [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
     - [SponsorBlock](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
-    - [Gruvbox Theme](https://chromewebstore.google.com/detail/gruvbox-theme/pligoajaaggbghgopjdmkfbnaodknplm)
   - qutebrowser (VIM-like)
     - macOS (`brew` cask): https://formulae.brew.sh/cask/qutebrowser
-    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/qutebrowser/
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/qutebrowser/qutebrowser/
+    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/qutebrowser/
 - Webkit engine:
   - Safari (macOS)
     - [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698?platform=mac)
@@ -270,13 +271,14 @@
 ## Task and time tracker
 
 - [Taskwarrior (`task`)](https://taskwarrior.org/download/#distributions)
+  - Fedora Workstation: theme `include` in `.config/task/taskrc` is in a different location: `include /usr/share/task/dark-256.theme`
   - [`taskwarrior-tui`](https://kdheepak.com/taskwarrior-tui/installation/)
     - Fedora Workstation (git via `cargo`): `cargo install taskwarrior-tui`
 - [Timewarrior (`timew`)](https://timewarrior.net/docs/install/)
   - Theme `import` in `.config/timewarrior/timewarrior.cfg` is in a different location on depending on macOS, Arch Linux, or Fedora Workstation:
     - macOS: `/opt/homebrew/share/doc/timew/themes/dark.theme`
-    - Arch Linux: `/usr/share/doc/timew/themes/dark.theme`
     - Fedora Workstation: `/usr/share/timew/themes/dark.theme`
+    - Arch Linux: `/usr/share/doc/timew/themes/dark.theme`
   - Taskwarrior integration hook is under: `.config/task/hooks/on-modify.timewarrior` ([source](https://timewarrior.net/docs/taskwarrior/))
     - To make integration hook executable: `chmod +x ~/.config/task/hooks/on-modify.timewarrior`
 

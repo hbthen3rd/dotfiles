@@ -7,18 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "base_keymap": "VSCode",
-  "edit_predictions": {
-    "provider": "zed",
-  },
-  "session": {
-    "trust_all_worktrees": true,
-  },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false,
-  },
-
   "theme": {
     "mode": "system",
     "light": "Gruvbox Light Hard",
@@ -30,16 +18,35 @@
     "dark": "Colored Zed Icons Theme Dark",
   },
 
-  "ui_font_family": "SF Pro",
-  "ui_font_size": 12,
+  "ui_font_family": "SF Pro Rounded",
+  // "ui_font_family": "Adwaita Sans",
+  // "ui_font_family": "CozetteVector",
+  "ui_font_size": 16.0,
 
   "buffer_font_family": "Fira Code",
-  "buffer_font_size": 12,
+  "buffer_font_size": 12.0,
 
   "terminal": {
+    "font_family": "FiraCode Nerd Font",
+    "font_size": 12.0,
     "blinking": "on",
     "cursor_shape": "bar",
-    "font_family": "FiraCode Nerd Font",
-    "font_size": 12,
+  },
+
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry",
+    },
+    "codex-acp": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
   },
 }

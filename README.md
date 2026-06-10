@@ -10,7 +10,7 @@
 
 - macOS - Liquid Glass
   - UI Font: [San Francisco](https://developer.apple.com/fonts/)
-    - "SF Pro" is used as [Zed](https://zed.dev/download)'s UI Font
+    - "SF Pro Rounded" is used as [Zed](https://zed.dev/download)'s UI Font
   - [Bartender 6](https://www.macbartender.com/)
 - Fedora Workstation - Gnome
   - Theme: [adw-gtk3](https://github.com/lassekongo83/adw-gtk3?tab=readme-ov-file#repositories) with [adw-colors](https://github.com/lassekongo83/adw-colors/blob/main/docs/HOWTO_INSTALL.md) (adw-gruvbox)
@@ -23,14 +23,10 @@
     - [Alphabetical App Grid](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/)
     - [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
     - [Blur my Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-    - [Burn My Windows](https://extensions.gnome.org/extension/4679/burn-my-windows/)
     - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
     - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-    - [Coverflow Alt-Tab](https://extensions.gnome.org/extension/97/coverflow-alt-tab/)
     - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
-    - [Desktop Cube](https://extensions.gnome.org/extension/4648/desktop-cube/)
     - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/)
-    - [Maximize To Workspace With History](https://extensions.gnome.org/extension/9346/maximize-to-workspace-with-history/)
     - [Rounded Window Corners Reborn](https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/)
     - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - Arch Linux - XFCE4
@@ -138,7 +134,7 @@
   - Fedora Workstation / Arch Linux (Package manager): https://zed.dev/docs/linux#installing-via-a-package-manager
   - [Colored Zed Icons Theme](https://zed.dev/extensions/colored-zed-icons-theme)
   - `ui_font_family` in `.config/zed/settings.json` is in a different for each desktop environments:
-    - Liquid Glass - macOS: `"SF Pro"`
+    - Liquid Glass - macOS: `"SF Pro Rounded"`
     - Gnome - Fedora Workstation: `"Adwaita Sans"`
     - XFCE4 - Arch Linux: `"CozetteVector"`
 - VSCodium (`codium`)
@@ -164,8 +160,34 @@
 ## File manager
 
 - Finder.app (macOS)
-  - To switch to List view: `command` + `2`
-  - To enable hidden files: `command` + `shift` + `.`
+  - Change default view style to Column view:
+    ```zsh
+    defaults write com.apple.finder FXPreferredViewStyle -string "clmv"; killall Finder
+    ```
+  - Show connected servers on desktop:
+    ```zsh
+    defaults write com.apple.finder ShowMountedServerOnDesktop -boolean true; killall Finder
+    ```
+  - Show external disks on desktop:
+    ```zsh
+    defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -boolean true; killall Finder
+    ```
+  - Show removable media on desktop:
+    ```zsh
+    defaults write com.apple.finder ShowRemovableMediaOnDesktop -boolean true; killall Finder
+    ```
+  - Show all filename extensions:
+    ```zsh
+    defaults write NSGlobalDomain AppleShowAllExtensions -boolean true; killall Finder
+    ```
+  - Show hidden files:
+    ```zsh
+    defaults write com.apple.finder AppleShowAllFiles -boolean true; killall Finder
+    ```
+  - Show full path in Finder title bar:
+    ```zsh
+    defaults write com.apple.finder _FXShowPosixPathInTitle -boolean true; killall Finder
+    ```
 - Nautilus (Fedora Workstation - Gnome)
   - To switch to List view: `Ctrl` + `1`
   - To enable hidden files: `Ctrl` + `H`
@@ -188,16 +210,16 @@
 
 | Package                                                                                            | CLIs (if different from package) |
 | :------------------------------------------------------------------------------------------------- | :------------------------------- |
-| `rar` (`brew` cask) / `unrar` (`pacman`/`yay`, `dnf`)                                              | `unrar`                          |
-| `sevenzip` (`brew`) / `7zip` (`pacman`/`yay`, `dnf`)                                               | `7zz`                            |
+| `unrar` (macOS: via `port`, `dnf`, `pacman`/`yay`)                                                 |                                  |
+| `sevenzip` (`brew`) / `7zip` (`dnf`, `pacman`/`yay`)                                               | `7zz`                            |
 | `poppler`                                                                                          | `pdftotext`, `pdftoppm`          |
 | `transmission-cli`                                                                                 | `transmission-show`              |
 | `odt2txt`                                                                                          |                                  |
-| `catdoc` (macOS: via `port`)                                                                       |                                  |
+| `catdoc` (macOS: via `port`, `dnf`, `pacman`/`yay`)                                                |                                  |
 | [`xlsx2csv`](https://github.com/dilshod/xlsx2csv?tab=readme-ov-file#installation) (git via `pipx`) |                                  |
 | `w3m`                                                                                              |                                  |
 | `jq`                                                                                               |                                  |
-| `media-info` (`brew`) / `mediainfo` (`pacman`/`yay`, `dnf`)                                        | `mediainfo`                      |
+| `media-info` (`brew`) / `mediainfo` (`dnf`, `pacman`/`yay`)                                        | `mediainfo`                      |
 | `librsvg` (`brew`, `pacman`/`yay`) / `librsvg2-tools` (`dnf`)                                      | `rsvg-convert`                   |
 | `djvulibre`                                                                                        | `ddjvu`, `djvutxt`               |
 | `ffmpeg`                                                                                           |                                  |
@@ -221,32 +243,22 @@
   - `about:config` settings:
     - `toolkit.legacyUserProfileCustomizations.stylesheets` = `true`
     - `svg.context-properties.content.enabled` = `true`
-    - `WaveFox.Tabs.Shape` = `7`
-    - `WaveFox.Tabs.Separators` = `1`
-    - `WaveFox.LightTheme.Tabs.Shadows` = `1`
-    - `WaveFox.DarkTheme.Tabs.Shadows` = `1`
-    - `WaveFox.Toolbar.Roundings` = `2`
-    - `WaveFox.DragSpace.Tabs` = `1`
-    - `WaveFox.DragSpace.TabBarLeftSide.Disabled` = `true`
-    - `WaveFox.DragSpace.TabBarRightSide.Disabled` = `true`
+    - `WaveFox.HorizontalTabs.Tabs.Separators` = `1`
+    - `WaveFox.Toolbar.Roundings` = `5`
     - `WaveFox.Icons` = `1`
+    - `WaveFox.HorizontalTabs.FloatingWebPage` = `true`
+    - `WaveFox.VerticalTabs.FloatingWebPage` = `true`
   - Liquid Glass - macOS only, add the following three settings to `about:config`:
     - `browser.tabs.inTitlebar` = `1`
-    - `browser.tabs.allow_transparent_browser` = `true`
     - `browser.theme.native-theme` = `true`
     - `widget.macos.titlebar-blend-mode.behind-window` = `true`
     - `widget.macos.sidebar-blend-mode.behind-window` = `true`
     - `widget.macos.native-context-menus` = `false`
-    - `WaveFox.Toolbar.Transparency` = `1`
-    - `WaveFox.WebPage.Transparency` = `1`
   - Gnome - Fedora Workstation only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `1`
-    - `browser.tabs.allow_transparent_browser` = `true`
     - `widget.gtk.libadwaita-colors.enabled` = `false`
     - `widget.gtk.rounded-bottom-corners.enabled` = `true`
     - `WaveFox.Linux.Transparency.Enabled` = `true`
-    - `WaveFox.Toolbar.Transparency` = `1`
-    - `WaveFox.WebPage.Transparency` = `1`
   - XFCE4 - Arch Linux only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `0`
 - Blink engine:
@@ -256,17 +268,13 @@
     - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/chromium/
     - [uBlock Origin Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
     - [SponsorBlock](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
-  - qutebrowser (VIM-like)
-    - macOS (`brew` cask): https://formulae.brew.sh/cask/qutebrowser
-    - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/qutebrowser/qutebrowser/
-    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/any/qutebrowser/
 - Webkit engine:
   - Safari (macOS)
     - [uBlock Origin Lite](https://apps.apple.com/us/app/ublock-origin-lite/id6745342698?platform=mac)
     - [SponsorBlock](https://github.com/ajayyy/SponsorBlock/wiki/Safari)
-  - Gnome Web (Epiphany) (Arch Linux / Fedora Workstation):
-    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/epiphany/
+  - Gnome Web (Epiphany) (Fedora Workstation / Arch Linux):
     - Fedora Workstation (`dnf`): https://packages.fedoraproject.org/pkgs/epiphany/epiphany/
+    - Arch Linux (`pacman`/`yay`): https://archlinux.org/packages/extra/x86_64/epiphany/
 
 ## Task and time tracker
 
@@ -288,7 +296,7 @@
 - [`mpv`](https://mpv.io/installation/)
 - [`btop++`](https://github.com/aristocratos/btop)
   - `color_theme` in `.config/btop/btop.conf` is in a different location depending on macOS, or Arch Linux / Fedora Workstation:
-    - macOS: `/opt/homebrew/Cellar/btop/1.4.5/share/btop/themes/gruvbox_dark_v2.theme`
+    - macOS: `/opt/homebrew/Cellar/btop/1.4.7/share/btop/themes/gruvbox_dark_v2.theme`
     - Arch Linux / Fedora Workstation: `/usr/share/btop/themes/gruvbox_dark_v2.theme`
 - [`bandwhich`](https://github.com/imsnif/bandwhich/blob/main/INSTALL.md)
 - [`fastfetch`](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file#installation)

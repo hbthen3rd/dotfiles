@@ -237,7 +237,7 @@
     "Green Component" : 0
   },
   "Vertical Spacing" : 1,
-  "Disable Window Resizing" : true,
+  "Disable Window Resizing" : false,
   "Close Sessions On End" : true,
   "Selection Color (Dark)" : {
     "Red Component" : 0.40000000596046448,
@@ -537,6 +537,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.40000000000000002
   },
+  "Disable Window Resizing by Unfocused Sessions" : false,
   "Ansi 10 Color (Dark)" : {
     "Red Component" : 0.72156864404678345,
     "Color Space" : "sRGB",

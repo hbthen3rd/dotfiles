@@ -261,6 +261,7 @@
     - `WaveFox.Linux.Transparency.Enabled` = `true`
   - XFCE4 - Arch Linux only, add the following setting to `about:config`:
     - `browser.tabs.inTitlebar` = `0`
+    - `WaveFox.Toolbar.Roundings` = `1`
 - Blink engine:
   - Chromium
     - macOS (`brew` cask): https://formulae.brew.sh/cask/chromium

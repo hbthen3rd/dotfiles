@@ -30,6 +30,7 @@
   "editor.fontSize": 12,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "git.autofetch": true,
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.cursorBlinking": true,

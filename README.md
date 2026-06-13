@@ -243,13 +243,16 @@
   - `about:config` settings:
     - `toolkit.legacyUserProfileCustomizations.stylesheets` = `true`
     - `svg.context-properties.content.enabled` = `true`
+    - `browser.newtabpage.activity-stream.nova.enabled` = `true`
+    - `browser.nova.enabled` = `true`
+    - `browser.smartwindow.nova.enabled` = `true`
+    - `browser.urlbar.quicksuggest.ampTopPickUseNovaIconSize` = `true`
     - `WaveFox.HorizontalTabs.Tabs.Separators` = `1`
     - `WaveFox.Toolbar.Roundings` = `5`
     - `WaveFox.Icons` = `1`
     - `WaveFox.HorizontalTabs.FloatingWebPage` = `true`
     - `WaveFox.VerticalTabs.FloatingWebPage` = `true`
   - Liquid Glass - macOS only, add the following three settings to `about:config`:
-    - `browser.tabs.inTitlebar` = `1`
     - `browser.theme.native-theme` = `true`
     - `widget.macos.titlebar-blend-mode.behind-window` = `true`
     - `widget.macos.sidebar-blend-mode.behind-window` = `true`

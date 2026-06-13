@@ -243,10 +243,10 @@
   - `about:config` settings:
     - `toolkit.legacyUserProfileCustomizations.stylesheets` = `true`
     - `svg.context-properties.content.enabled` = `true`
-    - `browser.newtabpage.activity-stream.nova.enabled` = `true`
-    - `browser.nova.enabled` = `true`
-    - `browser.smartwindow.nova.enabled` = `true`
-    - `browser.urlbar.quicksuggest.ampTopPickUseNovaIconSize` = `true`
+    - `browser.newtabpage.activity-stream.nova.enabled` = `false`
+    - `browser.nova.enabled` = `false`
+    - `browser.smartwindow.nova.enabled` = `false`
+    - `browser.urlbar.quicksuggest.ampTopPickUseNovaIconSize` = `false`
     - `WaveFox.HorizontalTabs.Tabs.Separators` = `1`
     - `WaveFox.Toolbar.Roundings` = `5`
     - `WaveFox.Icons` = `1`

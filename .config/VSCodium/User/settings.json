@@ -1,24 +1,45 @@
 {
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
-  "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "vscode-icons",
-
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.fontFamily": "'Fira Code', 'Cascadia Code', 'Meslo LG L DZ', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 12,
-  "editor.fontLigatures": true,
-  "editor.cursorSmoothCaretAnimation": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.prettier": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sort.json": "explicit"
+  },
   "editor.cursorBlinking": "smooth",
-
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "'Fira Code', 'Cascadia Code', 'Meslo LG L DZ', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableImages": true,
   "terminal.integrated.fontFamily": "'FiraCode Nerd Font', 'CaskaydiaCove Nerd Font', 'MesloLGLDZ Nerd Font', Menlo, Monaco, 'Courier New', monospace",
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.enableImages": true,
-
-  "telemetry.feedback.enabled": false,
-  "telemetry.telemetryLevel": "off"
+  "window.autoDetectColorScheme": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+  "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
+  "workbench.productIconTheme": "fluent-icons"
 }
